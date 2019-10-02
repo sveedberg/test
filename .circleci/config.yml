@@ -2,6 +2,8 @@ version: 2
 jobs:
     # The test job
     build:
+        branches:
+        
         working_directory: ~/Company2/
         docker:
             - image: circleci/node:10-browsers
