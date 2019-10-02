@@ -2,7 +2,7 @@ version: 2
 jobs:
     # The test job
     build:
-        working_directory: ~/repo/vITalAngular
+        working_directory: ~/repo
         docker:
             - image: circleci/node:10-browsers
         steps:
@@ -27,6 +27,6 @@ jobs:
                 paths:
                     - node_modules
             # Test the source code
-            - run:
-                name: Testing
-                command: ng build
+           # - run:
+            #    name: Testing
+             #   command: ng build
