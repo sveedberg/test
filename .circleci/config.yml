@@ -27,6 +27,6 @@ jobs:
                 paths:
                     - node_modules
             # Test the source code
-           # - run:
-            #    name: Testing
-             #   command: ng build
+            - run:
+                name: Testing
+                command: npm run build
