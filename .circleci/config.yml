@@ -14,7 +14,7 @@ jobs:
                 command: echo ${CIRCLE_BRANCH}
             - run:
                 name: Show cwd
-                command: ls
+                command: ls /vITalAngular
             # Restore local dependencies from cache
             - restore_cache:
                 keys:
