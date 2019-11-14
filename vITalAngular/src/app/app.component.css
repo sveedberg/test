@@ -1,0 +1,29 @@
+
+.my-container {
+  border: 1px solid black;
+
+}
+.my-row {
+  border: 1px solid black;
+  background-color: #e7e7e7;
+  height: 90px;
+}
+
+.my-col {
+
+  font-size: 22px;
+}
+.top-col {
+  color: white
+}
+
+.top-row {
+    background-color: #666;
+}
+
+.fa-chevron-left {
+  color: white;
+}
+.fa-battery-quarter {
+  color: white;
+}
